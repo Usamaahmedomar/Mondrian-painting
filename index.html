@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: black;
+            display: grid;
+            grid-template-rows:30px 50px 60px 180px 50px 50px 50px; /* we have 7 row*/
+            grid-template-columns:60px 100px 250px 80px 90px; /* 5 columns */
+            gap: 9px;
+            border: 3px solid darkgreen;
+        }
+        .item{
+            background-color: aliceblue;
+        }
+        .grey1{
+            background-color:#A0A0A0;
+            grid-row: span 2;
+        }
+        .white1{
+            grid-row: span 2;
+        }
+        .yellow1{
+            background-color: yellow;
+            grid-row: span 2;
+        }
+        .white2{
+            grid-column: span 2;
+        }
+        .black1{
+            background-color: black;
+            grid-row: span 2;
+        }
+        .grey2{
+            background-color: #A0A0A0;
+            grid-row: span 3;
+        }
+        .red{
+            background-color: brown;
+            grid-row: span 4;
+        }
+        
+        
+        .black2{
+            background-color: black;
+            grid-row: span 2;
+        }
+        .white3{
+            grid-row: span 2;
+        }
+        .yellow2{
+            background-color: yellow;
+        }
+        .grey3{
+            background-color: #A0A0A0;
+            grid-row: span 2;
+        }
+        .blue{
+            background-color: darkblue;
+            grid-row: span 2;
+        }
+        .grey4{
+            background-color: #A0A0A0;
+        }
+        .grey5{
+            background-color: #A0A0A0;
+            grid-row: span 2;
+        }
+        .grey6{
+            background-color: #A0A0A0;
+        }
+        .grey7{
+            background-color: #A0A0A0;
+        }
+        .white5{
+            grid-column: span 3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item grey1"></div>
+        <div class="item white1"></div>
+        <div class="item yellow1"></div>
+        <div class="item white2"></div>
+        <div class="item black1"></div>
+        <div class="item grey2"></div>
+        <div class="item red"></div>
+        <div class="item black2"></div>
+        <div class="item white3"></div>
+        <div class="item yellow2"></div>
+        <div class="item grey3"></div>
+        <div class="item blue"></div>
+        <div class="item grey4"></div>
+        <div class="item grey5"></div>
+        <div class="item grey6"></div>
+        <div class="item white4"></div>
+        <div class="item grey7"></div>
+        <div class="item white5"></div>
+
+    </div>
+</body>
+</html>
